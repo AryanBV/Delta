@@ -1,0 +1,60 @@
+.smiley{
+    width: 500px;
+    height: 500px;
+    background: rgb(226, 163, 4);
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+.smiley:hover{
+    transform: scale(0.9);
+    box-shadow: 4px 4px 20px palevioletred;
+    border: 3px solid palevioletred;
+    border-radius: 45%;
+    transition: all 0.5s ease-in-out;
+}
+#one, #two{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: black;
+}
+#one{
+    position: absolute;
+    top: 100px;
+    left: 130px;
+}
+#two{
+    position: absolute;
+    left: 320px;
+    top: 100px;
+
+}
+#one:hover, #two:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px gray;
+    border: 3px solid gray;
+    border-radius: 45%;
+    transition: all 0.5s ease-in-out;
+}
+
+.mouth{
+    width: 250px;
+    height: 100px;
+    
+    background-color:rgba(179, 11, 11, 0.793);
+    position: absolute;
+    top: 260px;
+    left:125px;
+    margin: auto;
+    border-radius:45%;
+}
+.mouth:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 20px crimson;
+    border: 3px solid crimson;
+    border-radius: 10% 10% 45% 45%;
+    transition: all 0.5s ease-in-out;
+}
