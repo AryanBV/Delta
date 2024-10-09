@@ -54,3 +54,114 @@
 //     console.log("Better luck next time!")
 // }
 
+// let str = "apple";
+// if(str.length > 3){
+//     console.log("Good String");
+// }else{
+//     console.log("Not Good String");
+// }
+
+// let num = 12;
+//  if((num%3=== 0) && ((num+1 == 15) || (num-1 == 11) ) ) { 
+//     console.log("safe"); 
+// } else { 
+//     console.log("unsafe"); 
+// }
+
+
+// let color = "green";
+// switch (color){
+//     case "red":
+//         console.log("STOP!!");
+//         break;
+//     case "yellow":
+//         console.log("Wait!!");
+//         break;
+//     case "green":
+//         console.log("GO!!");
+//         break;
+//     default: 
+//         console.log("Traffic light is not working!!");
+// }
+
+
+// let day = 10;
+// switch(day){
+//     case 1 :
+//         console.log("Monday");
+//         break;
+//     case 2 :
+//         console.log("Tuesday");
+//         break;
+//     case 3 :
+//         console.log("Wednesday");
+//         break;
+//     case 4 :
+//         console.log("Thursday");
+//         break;
+//     case 5 :
+//         console.log("Friday");
+//         break;
+//     case 6 :
+//         console.log("Saturday");
+//         break;
+//     case 7 :
+//         console.log("Sunday");
+//         break;
+//     default :
+//         console.log("There is only 7 days in a week!!:)");
+// }
+
+
+// alert("Something is wrong!!");
+
+// console.log("Error");
+// console.error("Error");
+// console.warn("Error");
+// console.info("Error");
+
+// let firstName = prompt("Enter your first name");
+// let lastName = prompt("Enter your last name");
+// console.log("Welcome "+ firstName +" "+lastName +"!!");
+
+// let num = 100;
+// if(num%10==0){
+//     console.log("good");
+// }else{
+//     console.log("bad");
+// }
+
+// let name = prompt("Enter your name");
+// let age = prompt("Enter your age");
+// console.log(name + " is " + age + " years old");
+
+
+// let str = "America";
+// if((str[0]=="A" || str[0]=="a") && str.length>5){
+//     console.log("golden string");
+// }else{
+//     console.log("bad string");
+// }
+
+// let a = 100;
+// let b = 12;
+// let c = 25;
+
+// if(a>b && a>c){
+//     console.log("A is the largest of the three");
+
+// }else if(b>c){
+//     console.log("B is largest of the three");
+// }else{
+//     console.log("C is the largest of the three");
+// }
+
+// let a = 38;
+// let b = 47858;
+
+// if(a%10 == b%10){
+//     console.log("Last digit is same", a%10);
+
+// }else{
+//     console.log("Last digit is different")
+// }
